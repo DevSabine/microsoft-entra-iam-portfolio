@@ -17,4 +17,9 @@ Simulate onboarding and access assignment using group-based access control.
 In real-world environments, access is assigned to groups rather than individual users. This approach improves scalability, simplifies access management, and reduces the risk of misconfigured permissions.
 
 ## Screenshots
-See attached images below.
+![Create User](01-create-user.png)
+![User Created](02-user-created.png)
+![Create Group](03-create-group.png)
+![Group Created](04-group-created.png)
+![Add User to Group](05-add-user-to-group.png)
+![User Added to Group](06-user-added-to-group.png)
