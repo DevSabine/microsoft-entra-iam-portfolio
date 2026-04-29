@@ -8,7 +8,7 @@ Microsoft Entra ID IAM portfolio demonstrating hands-on implementation of identi
 
 This repository simulates a real-world enterprise Identity and Access Management (IAM) environment using Microsoft Entra ID.
 
-The environment includes:
+### Environment includes
 
 - Department-based user structure (HR, IT, Finance)
 - Role-Based Access Control (RBAC)
