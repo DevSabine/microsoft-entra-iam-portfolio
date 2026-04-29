@@ -2,20 +2,20 @@
 
 ## Objective
 
-Understand how Privileged Identity Management (PIM) is used to manage, control, and monitor access to privileged roles in Microsoft Entra ID.
+Understand how Privileged Identity Management (PIM) controls and monitors access to privileged roles using just-in-time (JIT) access and least privilege principles.
 
 ---
 
 ## What is Privileged Identity Management?
 
-Privileged Identity Management (PIM) is a security feature in Microsoft Entra ID that allows organizations to manage privileged access to critical resources.
+Privileged Identity Management (PIM) is a Microsoft Entra ID feature that manages elevated access to critical roles.
 
-Instead of users having permanent administrative access, PIM enables:
+Instead of assigning permanent administrative privileges, PIM enables:
 
-- Just-in-time (JIT) role activation
-- Time-bound access to privileged roles
-- Approval-based role activation
-- Monitoring and auditing of privileged access
+- Just-in-Time (JIT) role activation
+- Time-limited access to privileged roles
+- Approval-based access workflows
+- Monitoring and auditing of privileged activity
 
 ---
 
@@ -23,12 +23,12 @@ Instead of users having permanent administrative access, PIM enables:
 
 PIM helps protect organizations from:
 
-- Excessive or permanent administrative privileges
+- Excessive or permanent admin access
 - Insider threats
-- Compromised admin accounts
-- Lack of visibility into privileged access
+- Compromised privileged accounts
+- Lack of visibility into elevated access
 
-It enforces **least privilege access** by ensuring users only have elevated permissions when needed.
+It enforces **least privilege access**, ensuring users only have elevated permissions when required.
 
 ---
 
@@ -37,18 +37,17 @@ It enforces **least privilege access** by ensuring users only have elevated perm
 In real-world environments, PIM is used to:
 
 - Require approval before activating admin roles
-- Enforce Multi-Factor Authentication (MFA) for role activation
-- Limit how long a user can hold elevated privileges
-- Audit and monitor privileged activity
+- Enforce MFA during role activation
+- Limit duration of elevated access
+- Track and audit all privileged activity
 
-Example:
+Example workflow:
 
-A user may be eligible for the **Global Administrator** role, but must:
-
-1. Request activation
-2. Complete MFA
-3. Receive approval (if required)
-4. Gain access for a limited time
+1. User is assigned as **eligible** for a role
+2. User requests activation
+3. MFA and/or approval is required
+4. Role is activated temporarily
+5. Access automatically expires
 
 ---
 
@@ -56,20 +55,22 @@ A user may be eligible for the **Global Administrator** role, but must:
 
 In this lab environment:
 
-- Privileged Identity Management was located within Microsoft Entra ID
-- Role management and assignment areas were explored
-- PIM workflow and structure were reviewed
+- Privileged Identity Management was successfully located
+- Microsoft Entra roles were explored
+- Role activation (JIT) workflow was accessed
+- Role assignments section was identified but restricted
 
 Limitations observed:
 
-- Full PIM functionality requires **Microsoft Entra ID Premium P2**
-- Some role activation and assignment features were restricted
-- Licensing and permissions control access to privileged operations
+- PIM requires **Microsoft Entra ID Premium P2**
+- Role assignment and activation features were restricted
+- Licensing prevented full configuration
 
 This reflects real-world IAM environments where:
 
 - Privileged access is tightly controlled
-- Elevated permissions require additional security validation
+- Elevated permissions require additional validation
+- Licensing and RBAC determine access capabilities
 
 ---
 
@@ -87,18 +88,18 @@ This reflects real-world IAM environments where:
 
 PIM is critical for securing administrative access in cloud environments.
 
-It helps organizations:
+It allows organizations to:
 
-- Reduce the attack surface
+- Reduce attack surface
 - Prevent privilege abuse
 - Enforce strong access controls
 - Maintain visibility into high-risk roles
 
-PIM knowledge is highly valuable for:
+PIM knowledge is essential for:
 
 - IAM Analyst roles
 - SOC Analyst roles
-- Cloud Security roles
+- Cloud Security positions
 
 ---
 
@@ -107,11 +108,11 @@ PIM knowledge is highly valuable for:
 ### Step 1: PIM Overview
 ![PIM Overview](01-pim-overview.png)
 
-### Step 2: Roles Page
+### Step 2: Entra Roles Page
 ![Roles Page](02-roles-page.png)
 
-### Step 3: Role Assignments
+### Step 3: Role Assignments (Restricted)
 ![Role Assignments](03-role-assignments.png)
 
-### Step 4: License / Permission Message
+### Step 4: License / Permission Message (P2 Required)
 ![License or Permission Message](04-license-or-permission-message.png)
