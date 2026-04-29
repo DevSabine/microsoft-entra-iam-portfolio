@@ -24,15 +24,14 @@ Each lab demonstrates how identity security is implemented, enforced, and monito
 
 ## Labs Included
 
-- **01 – Identity Lifecycle Management**
-- **02 – Department-Based Access Control**
-- **03 – Role-Based Access Control**
-- **04 – Conditional Access**
-- **05 – Multi-Factor Authentication (MFA)**
-- **06 – Access Reviews (Identity Governance)**
-- **07 – Privileged Identity Management (PIM)**
-- **08 – Application Access Management**
-
+- **01 – Identity Lifecycle Management** → [View Lab](./01-identity-lifecycle-management)
+- **02 – Department-Based Access Control** → [View Lab](./02-department-based-access-control)
+- **03 – Role-Based Access Control** → [View Lab](./03-role-based-access-control)
+- **04 – Conditional Access** → [View Lab](./04-conditional-access)
+- **05 – Multi-Factor Authentication (MFA)** → [View Lab](./05-multi-factor-authentication)
+- **06 – Access Reviews (Identity Governance)** → [View Lab](./06-access-reviews)
+- **07 – Privileged Identity Management (PIM)** → [View Lab](./07-privileged-identity-management)
+- **08 – Application Access Management** → [View Lab](./08-application-access-management)
 ---
 
 ## Skills Demonstrated
